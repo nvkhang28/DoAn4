@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    height: 400px;
+    background: url("/images/hero-bg.jpg") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-section {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  /* Best Selling Products */
+  .best-selling {
+    padding: 40px 0;
+  }
+  
+  .product-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Categories */
+  .categories {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .category-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .category-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .category-card h5 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Promotion Banner */
+  .promotion-banner {
+    padding: 40px 0;
+  }
+  
+  .promo-card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .promo-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
